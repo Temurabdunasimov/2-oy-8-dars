@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&family=Kodchasan:wght@700&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Kodchasan;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 227px;
+    margin-right: 50px;
+    height: 100px;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.main-section{
+    height: 865px;
+    background-size: cover;
+    background-image: url(picture/Rectangle\ 1.png);
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    font-family: Kodchasan;
+font-size: 100px;
+font-weight: 700;
+line-height: 130px;
+padding-left: 177px;
+}
+
+button{
+    height: 65px;
+    width: 180px;
+    font-family: Kodchasan;
+    font-size: 18px;
+    border: 2px solid #000000;
+    margin-top: 88px;
+    background: transparent;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.shop_h{
+    font-family: Kodchasan;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.shop ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 1350px;
+    margin-top: 50px;
+    margin-bottom: 205px;
+}
+
+.shop-box{
+    display: flex;
+    align-items: center;
+    max-width: 1350px;
+    margin: 131px auto;
+}
+
+.shop-box_h{
+    font-family: Kodchasan;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+
+}
+
+.shop-box p{
+    font-family: Kodchasan;
+    font-size: 22px;
+    opacity: 0.7;
+}
+
+
+.shop-text{
+    max-width: 548px;
+}
+
+.shop-box2{
+    display: flex;
+    align-items: center;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.shop-text2{
+    max-width: 548px;
+}
+
+.shop-box2 p{
+    font-family: Kodchasan;
+    font-size: 22px;
+    opacity: 0.7;
+}
+
